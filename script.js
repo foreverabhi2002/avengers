@@ -3,7 +3,7 @@ window.onload = () =>{
    setTimeout(function(){
       document.querySelector('body').style.overflow = 'visible';
       document.querySelector('.loading-con').style.display = 'none';
-   },1000)
+   },3000)
     castImg = document.querySelector('.cast-img');
     castDatailsTtext = document.querySelector('.cast-datails');
     castList = document.querySelectorAll('.cast-list-img');
